@@ -47,7 +47,7 @@ exports.handler = (event,context,callback) => {
 
      context.callbackWaitsForEmptyEventLoop = false;
      var firebaseConfig = {
-        apiKey: "AIzaSyCO558rpWEB36e3iEPnscBTIlJ8XqemPIc",
+        apiKey: "<API_KEY>",
         authDomain: "smart-india-hackathon-24a7a.firebaseapp.com",
         databaseURL: "https://smart-india-hackathon-24a7a.firebaseio.com",
         projectId: "smart-india-hackathon-24a7a",
